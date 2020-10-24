@@ -1,0 +1,21 @@
+{
+    "name": "freecodecamp-dark-theme",
+    "displayName": "freeCodeCamp Dark Theme",
+    "description": "freeCodeCamp Dark Theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "freeCodeCamp Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/freeCodeCamp-dark.json"
+            }
+        ]
+    }
+}
